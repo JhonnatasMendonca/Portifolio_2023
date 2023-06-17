@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: black;
+	color: #FFFFFF;
+}
+
+nav{
+	background-color: #132642;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav img{
+	background-color: #132642;
+	width: 150px;
+	margin-left: 5%;
+}
+
+.lista_menu{
+	background-color: #132642;
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.lista_menu li{
+	background-color: #132642;
+	list-style: none;
+}
+
+.lista_menu li a{
+	background-color: #132642;
+	text-decoration: none;
+	
+}
+
+.box_perfil{
+	width: 100%;
+	height: 659px;
+	background-image: url('../images/banner.png');
+	background-size: 100% 100%;
+}
+
+.perfil_txt{
+	width: 30%;
+	background-color: transparent !important;
+}
+
+.perfil_txt_50{
+	display: flex;
+	/*justify-content: space-between;*/
+	align-items: center;
+}
+
+.perfil_txt_50 hr{
+	width: 160px;
+	background-color: #03FA6E;
+	height: 3px;
+	margin-right: 1%;
+}
+
+.perfil_txt h3{
+	font-family: 'Times New Roman';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 37px;
+}
+
+.perfil_txt h1{
+	Font-family: 'Times New Roman';
+	Font-style: Regular;
+	Font-size: 40px;
+	font-weight: normal;
+	Line-height: 100%;
+	Align: Left;
+	Vertical align: Top;
+} 
+
+.perfil_txt_50 h3{
+	font-family: Lato;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 48px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+
