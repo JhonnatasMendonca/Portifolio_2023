@@ -4,8 +4,12 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color: black;
+	
 	color: #FFFFFF;
+}
+
+main, html{
+	background-color: black;
 }
 
 nav{
@@ -44,21 +48,22 @@ nav img{
 	height: 659px;
 	background-image: url('../images/banner.png');
 	background-size: 100% 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .perfil_txt{
-	width: 30%;
-	background-color: transparent !important;
+	width: 40%;
 }
 
 .perfil_txt_50{
 	display: flex;
-	/*justify-content: space-between;*/
 	align-items: center;
 }
 
 .perfil_txt_50 hr{
-	width: 160px;
+	width: 220px;
 	background-color: #03FA6E;
 	height: 3px;
 	margin-right: 1%;
@@ -68,14 +73,14 @@ nav img{
 	font-family: 'Times New Roman';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 32px;
 	line-height: 37px;
 }
 
 .perfil_txt h1{
 	Font-family: 'Times New Roman';
 	Font-style: Regular;
-	Font-size: 40px;
+	Font-size: 60px;
 	font-weight: normal;
 	Line-height: 100%;
 	Align: Left;
@@ -84,7 +89,7 @@ nav img{
 
 .perfil_txt_50 h3{
 	font-family: Lato;
-	font-size: 15px;
+	font-size: 25px;
 	font-weight: 500;
 	line-height: 48px;
 	letter-spacing: 0em;
