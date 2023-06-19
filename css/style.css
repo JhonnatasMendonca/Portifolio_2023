@@ -24,10 +24,14 @@ nav{
     z-index: 2;   
 }
 
+#link_logo{
+	margin-left: 5%;
+}
+
 nav img{
 	background-color: #132642;
 	width: 150px;
-	margin-left: 5%;
+	
 }
 
 .lista_menu{
