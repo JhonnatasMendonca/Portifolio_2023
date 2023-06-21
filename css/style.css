@@ -148,20 +148,25 @@ nav img{
 	color: #03FA6E;
 }
 
-/* .titulo_right{
-	text-align: right;
-	margin-right: 8%;
-}
-
-.titulo_menor_right{
-	text-align: right;
-	margin-right: 13%;
-} */
-
 .sobre p{
 	text-align: center;
 	padding:  10px 10%;
 	font-size: 20px;
 }
 
+#button_cv{
+	color: #2A446B;
+	width: 150px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: #C5F6DA;
+	border: none;
+	cursor: pointer;
+	margin-left: 14%;
+	margin-top: 1%;
+}
 
+#button_cv:hover{
+	background-color: #0066FF;
+	color: #fff;
+}
