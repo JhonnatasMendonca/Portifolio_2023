@@ -21,6 +21,7 @@ nav{
 	align-items: center;
 	position: fixed;
     width: 100%;
+	max-width: 1366px;
     z-index: 2;   
 }
 
@@ -130,7 +131,7 @@ nav img{
 	margin-left: 130px;
 }
 
-.sobre h1{
+h1{
 	font-size: 40px;
 	margin-left: 8%;
 }
@@ -149,8 +150,9 @@ nav img{
 }
 
 .sobre p{
-	text-align: center;
-	padding:  10px 10%;
+	text-align: justify;
+	width: 72%;
+	margin: 0 auto;
 	font-size: 20px;
 }
 
@@ -171,4 +173,68 @@ nav img{
 	color: #fff;
 }
 
+.box_projetos{
+	width: 70%;
+	margin: 0 auto;
+}
 
+.box_projetos_exemplos{
+	display: flex;
+}
+
+.img_projeto{
+	width: 60%;
+	margin-right: 2%;
+}
+
+.box_projetos_descricao h2{
+	font-family: Lato;
+	font-Weight: 600;
+	font-Style: italic;
+	font-size: 32px;
+	color: #C5F6DA;
+}
+
+.box_projetos_descricao ul{
+	display: flex;
+	margin: 4% 0;
+}
+
+.box_projetos_descricao ul li{
+	list-style-type: none;
+	margin-right: 5%;
+}
+
+.box_projetos_descricao p{
+	margin-bottom: 8%;
+	text-align: justify;
+}
+
+.box_projetos_buttons{
+	margin-top: 14%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.button{
+	width: 150px;
+	height: 30px;
+	border-radius: 15px;
+	border: none;
+	cursor: pointer;
+}
+
+.button:hover{
+	color: #2A446B !important;
+	background-color: #C5F6DA !important;
+}
+
+.button_verde{
+	background-color: #03FA6E; 
+	color: #2A446B;
+}
+
+.button_azul{
+	background-color: #0066FF; 
+	color: #fff;
+}
