@@ -173,6 +173,11 @@ nav img{
 	color: #fff;
 }
 
+#projetos{
+	display: flex;
+	flex-direction: column;
+}
+
 .box_projetos{
 	width: 70%;
 	margin: 0 auto;
@@ -237,4 +242,11 @@ nav img{
 .button_azul{
 	background-color: #0066FF; 
 	color: #fff;
+}
+
+#button_linkedin{
+	width: 15%;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
 }
