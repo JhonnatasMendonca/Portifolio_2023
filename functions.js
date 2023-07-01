@@ -5,3 +5,11 @@ function redirecionaprotea(){
         window.open(url, '_blank');
     };
 }
+
+function redirecionaroadtech(){
+    let linktest = document.getElementById('roadtech');
+    linktest.onclick = function () {
+        let url = "projetos/RoadTech/index.html";
+        window.open(url, '_blank');
+    };
+}
