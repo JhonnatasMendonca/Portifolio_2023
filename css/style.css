@@ -198,6 +198,13 @@ nav img{
 
 .box_projetos_exemplos{
 	display: flex;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.box_projetos_exemplos:hover{
+	padding: 1%;
+  	box-shadow: 5px 10px 8px 10px #888888;
 }
 
 .img_projeto{

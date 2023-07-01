@@ -11,6 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
 	<!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+	<script src="functions.js"></script>
 </head>
 <body>
 	<header>
@@ -111,7 +112,7 @@
 		<h1 class="titulo_chave">Projetos</h1> <h1 class=" titulo_chave verde">{</h1>
 		<div class="box_projetos">
 			<div class="box_projetos_exemplos">
-				<img class="img_projeto" src="images/protea.png">
+				<img onclick="redirecionaprotea();" id="protea" class="img_projeto" src="images/protea.png">
 				<div>
 					<div class="box_projetos_descricao">
 						<h2>Protea Flowers</h2>
@@ -143,8 +144,12 @@
 						arma uma pindureta.</p>
 					</div>
 					<div class="box_projetos_buttons">
-						<button class="button button_verde">Link Repositório</button>
-						<button class="button button_azul">Visualizar Aplicação</button>
+						<a target="_blank" href="https://github.com/JhonnatasMendonca/Protea_Flowers">
+							<button class="button button_verde">Link Repositório</button>
+						</a>
+						<a target="_blank" href="projetos/Protea_Flowers/pages/home/index.html">
+							<button class="button button_azul">Visualizar Aplicação</button>
+						</a>
 					</div>
 				</div>
 			</div>
