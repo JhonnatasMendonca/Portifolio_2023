@@ -4,7 +4,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	
 	color: #FFFFFF;
 }
 
@@ -36,7 +35,6 @@ nav{
 nav img{
 	background-color: #132642;
 	width: 150px;
-	
 }
 
 .lista_menu{
@@ -55,6 +53,10 @@ nav img{
 	padding: 1.5% 4%;
 	cursor: pointer;
 	border-radius: 20px;
+}
+
+.lista_menu li:nth-child(5){
+	margin-left: 10%;
 }
 
 .lista_menu li:hover{
@@ -153,8 +155,15 @@ nav img{
 	color: #03FA6E;
 }
 
+.titulo_sobre{
+	text-align: center;
+	font-size: 35px;
+	font-weight: normal;
+	margin-bottom: 2%;
+}
+
 #sobre p{
-	text-align: justify;
+	text-align: center;
 	width: 72%;
 	margin: 0 auto;
 	font-size: 20px;
