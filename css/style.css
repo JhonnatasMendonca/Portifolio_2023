@@ -14,7 +14,7 @@ main, html{
 	margin: auto;
 }
 
-#sobre, #projetos{
+#sobre, #projetos, #contato{
 	margin: 5% 0;
 }
 
@@ -288,3 +288,82 @@ nav img{
 	width: 131px;
 	height: 131px;
 }
+
+#contato{
+	background-color: #1A1B1B;
+	margin-bottom: 0;
+}
+
+form{
+	width: 50%;
+}
+
+#box_centro_contato{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#box_centro_form{
+	display: flex;
+}
+
+form label{
+	display: block;
+	color: #B1D0FF;
+	margin: 1.5% 0;
+}
+
+form input[type='text'], form input[type='email']{
+	width: 300px;
+	height: 35px;
+	border-radius: 10px;
+	background-color: #4D4D4D;
+	border: none;
+	padding-left: 2%;
+}
+
+
+#box_email{
+	margin-left: 2%;
+}
+
+textarea{
+	width: 91%;
+	height: 100px;
+	resize: none;
+	border-radius: 10px;
+	padding-left: 1%;
+	background-color: #4D4D4D;
+	border: none;
+	display: block;
+}
+
+form input[type='submit']{
+	width: 120px;
+	margin-top: 2%;
+}
+
+#box_contato_redes h3{
+	font-family: Lato;
+	font-size: 32px;
+	font-style: italic;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: 0em;
+	text-align: right;
+	padding: 5%;
+	color: #C5F6DA;
+}
+
+#box_contato_redes hr{
+	background-color: #03FA6E;
+	height: 3px;
+}
+
+#box_contato_redes_img{
+	margin-top: 2%;
+	display: flex;
+	justify-content: space-between;
+}
+
