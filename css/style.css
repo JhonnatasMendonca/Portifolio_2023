@@ -17,10 +17,6 @@ main, html{
 	margin: 5% 0;
 }
 
-#menu_desktop{
-	display: none;
-}
-
 nav{
 	background-color: #132642;
 	position: fixed;
@@ -29,8 +25,12 @@ nav{
     z-index: 2;
 }
 
-#menu_desktop{
+#menu_mobile{
 	display: none;
+}
+
+#menu_desktop{
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	position: fixed;   
@@ -405,9 +405,122 @@ footer p{
 	text-align: center;
 }
 
+
+@media screen and (max-width: 1280px){
+	/*Estilo da sessão contato*/
+	
+	form{
+		width: 75%;
+	}
+	
+	#box_centro_contato{
+		flex-direction: column;
+	}
+	
+	#box_email{
+		margin-left: 1%;
+	}
+	
+	textarea{
+		width: 100%;
+	}
+	
+	#box_contato_redes h3{
+		padding: 0%;
+		margin-top: 5%;
+	}
+	
+	#box_contato_redes hr{
+		display: none;
+	}
+
+	#box_centro_form{
+		flex-direction: column;
+	}
+
+	form input[type='text'], form input[type='email']{
+		width: 100%;
+	}
+
+	#box_email{
+		margin-left: 0;
+	}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+	/*Estilo da sessão perfil*/
+	
+	.perfil_txt{
+		width: 58%;
+		padding-left: 3%;
+	}
+
+	.box_projetos{
+		width: 78%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	/*Estilo da sessão perfil*/
+
+	.box_perfil{
+		height: auto;
+		padding-top: 20%;
+		flex-direction: column;
+	}
+	
+	.perfil_txt{
+		width: 100%;
+		text-align: center;
+	}
+	
+	.perfil_txt_50{
+		justify-content: center;
+	} 
+	
+	/*Estilo da sessão sobre*/
+	
+	#sobre p{
+		text-align: justify;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.autoplay{
+		width: 90%;
+	}
+
+	.autoplay img{
+		margin-left: 80px;
+	}
+
+	/* Estilo da sessão projeto */
+	
+	.box_projetos{
+		width: 75%;
+	}
+	
+	.box_projetos_exemplos{
+		flex-direction: column;
+		text-align: center;
+	}
+	
+	.img_projeto{
+		width: 100%;
+	}
+
+	.box_projetos_descricao ul{
+		justify-content: center;
+	}
+}
+
 @media screen and (max-width: 820px){
 	
 	/*Estilo do menu mobile*/
+	#menu_desktop{
+		display: none;
+	}
 
 	#menu_mobile{
 		display: flex;
@@ -464,39 +577,6 @@ footer p{
 		margin-left: 2%;
 	}
 
-	/*Estilo da sessão perfil*/
-
-	.box_perfil{
-		height: auto;
-		padding-top: 20%;
-		flex-direction: column;
-	}
-	
-	.perfil_txt{
-		width: 100%;
-		text-align: center;
-	}
-	
-	.perfil_txt_50{
-		justify-content: center;
-	} 
-	
-	/*Estilo da sessão sobre*/
-	
-	#sobre p{
-		text-align: justify;
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	.autoplay{
-		width: 90%;
-	}
-
-	.autoplay img{
-		margin-left: 80px;
-	}
-
 	/*Estilo da sessão projeto*/
 	
 	.box_projetos{
@@ -517,7 +597,7 @@ footer p{
 	}
 
 	/*Estilo da sessão contato*/
-	
+
 	form{
 		width: 75%;
 	}
@@ -525,7 +605,7 @@ footer p{
 	#box_centro_contato{
 		flex-direction: column;
 	}
-	
+
 	#box_email{
 		margin-left: 1%;
 	}
@@ -541,6 +621,10 @@ footer p{
 	
 	#box_contato_redes hr{
 		display: none;
+	}
+
+	#box_email{
+		margin-left: 0;
 	}
 }
 
@@ -598,14 +682,12 @@ footer p{
 		width: 50%;
 	}
 
-	/*Estilo da sessão contato*/
-
-	#box_centro_form{
-		flex-direction: column;
+	#box_email{
+		margin-left: 0;
 	}
 
-	form input[type='text'], form input[type='email']{
-		width: 100%;
+	footer p{
+		font-size: 16px;
 	}
 }
 
