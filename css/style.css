@@ -543,3 +543,68 @@ footer p{
 		display: none;
 	}
 }
+
+@media screen and (max-width: 520px){
+	/*Estilo da sessão perfil*/
+
+	.box_perfil{
+		padding-top: 30%;
+	}
+
+	.perfil_txt h3{
+		font-size: 28px;
+	}
+
+	.perfil_txt h1{
+		Font-size: 50px;
+	} 
+
+	.perfil_txt_50 h3{
+		font-size: 20px;
+	}
+	
+	/*Estilo da sessão sobre*/
+	
+	#sobre p{
+		text-align: justify;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.autoplay{
+		width: 100%;
+	}
+
+	.autoplay img{
+		margin-left: 50px;
+	}
+
+	/*Estilo da sessão serviços*/
+	
+	#box_servicos{
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.box_servicos_exemplos{
+		width: 220px;
+		height: 240px;
+		margin: 1% 0;
+	}
+
+	/*Estilo da sessão projetos*/
+
+	#button_linkedin{
+		width: 50%;
+	}
+
+	/*Estilo da sessão contato*/
+
+	#box_centro_form{
+		flex-direction: column;
+	}
+
+	form input[type='text'], form input[type='email']{
+		width: 100%;
+	}
+}
