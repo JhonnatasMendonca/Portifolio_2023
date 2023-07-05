@@ -608,3 +608,52 @@ footer p{
 		width: 100%;
 	}
 }
+
+@media screen and (max-width: 450px){
+	/*Estilo da sessão perfil*/
+
+	.box_perfil{
+		padding-top: 40%;
+	}
+	.perfil_txt h3{
+		font-size: 22px;
+	}
+
+	.perfil_txt h1{
+		Font-size: 35px;
+	} 
+
+	.perfil_txt_50 h3{
+		font-size: 16px;
+	}
+
+	.perfil_txt_50 hr{
+		width: 120px;
+	}
+
+	.perfil_img{
+		height: 500px;
+	}
+	
+	#img_perfil{
+		width: 100%;
+	}
+
+	/*Estilo da sessão sobre*/
+
+	.autoplay img{
+		margin-left: 40px;
+	}
+
+	#icon_code{
+		margin-left: 58%;
+		position: relative;
+		top: -32%;
+	}
+
+	/*Estilo da sessão projetos*/
+
+	.button{
+		width: 130px;
+	}
+}
