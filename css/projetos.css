@@ -1,0 +1,79 @@
+#title{
+    padding-top: 10%;
+    padding-bottom: 2%;
+    text-align: center;
+    
+}
+
+#title h1{
+    font-size: 40px;
+}
+
+.box_centro_projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 2%;
+}
+
+.exemplo_projeto{
+    width: 350px;
+    height: auto;
+    background-color: #1A1B1B;
+    padding: 1%;
+    border: 2px inset white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.exemplo_projeto:hover{
+    width: 400px;
+    height: 530px;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.img_demostracao{
+    width: 100%;
+}
+
+.descricao_projeto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descricao_projeto ul{
+    display: flex;
+    margin: 1% 0;
+}
+
+.descricao_projeto ul li{
+    list-style: none;
+    margin-right: 4%;
+    display: flex;
+    align-items: center;
+}
+
+.descricao_projeto p{
+    font-size: 15px;
+    text-align: justify;
+    max-height: 180px;
+    overflow: auto;
+    margin-bottom: 5%;
+}
+
+.descricao_projeto p::-webkit-scrollbar {
+    width: 2px;               
+}
+
+.descricao_projeto p::-webkit-scrollbar-track {
+    background: #03FA6E;       
+}
+
+.buttons_access{
+    display: flex;
+    justify-content: space-between;
+}

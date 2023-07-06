@@ -277,11 +277,15 @@ nav{
 	color: #fff;
 }
 
-#button_linkedin{
-	width: 15%;
+#button_projetos{
+	width: 100%;
+}
+
+.link_projetos{
+	width: 20%;
+	padding: 0;
+	margin: auto;
 	margin-top: 5%;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 #servicos{
@@ -687,7 +691,7 @@ footer p{
 
 	/*Estilo da sessão projetos*/
 
-	#button_linkedin{
+	#link_projetos{
 		width: 50%;
 	}
 
