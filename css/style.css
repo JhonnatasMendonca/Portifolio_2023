@@ -163,6 +163,11 @@ nav{
 	color: #03FA6E;
 }
 
+#sobre{
+	display: flex;
+	flex-direction: column;
+}
+
 .titulo_sobre{
 	text-align: center;
 	font-size: 35px;
@@ -179,14 +184,14 @@ nav{
 
 #button_cv{
 	color: #2A446B;
-	width: 150px;
+	width: 20%;
 	height: 30px;
 	border-radius: 15px;
 	background-color: #C5F6DA;
 	border: none;
 	cursor: pointer;
-	margin-left: 14%;
-	margin-top: 1%;
+	margin: 5% auto;
+	margin-bottom: 0;
 }
 
 #button_cv:hover{
@@ -577,6 +582,10 @@ footer p{
 		margin-left: 2%;
 	}
 
+	#button_cv{
+		width: 50%;
+	}
+
 	/*Estilo da sessão projeto*/
 	
 	.box_projetos{
@@ -733,9 +742,76 @@ footer p{
 		top: -32%;
 	}
 
+	#button_cv{
+		width: 80%;
+	}
+
 	/*Estilo da sessão projetos*/
 
 	.button{
 		width: 130px;
+	}
+}
+
+@media screen and (max-width: 300px){
+	/*Estilo da sessão perfil*/
+
+	.box_perfil{
+		padding-top: 45%;
+	}
+	.perfil_txt h3{
+		font-size: 20px;
+	}
+
+	.perfil_txt h1{
+		Font-size: 30px;
+	} 
+
+	.perfil_txt_50 h3{
+		font-size: 14px;
+	}
+
+	.perfil_txt_50 hr{
+		width: 100px;
+	}
+
+	.perfil_img{
+		height: 500px;
+		padding-top: 20%;
+	}
+	
+	#img_perfil{
+		width: 100%;
+	}
+
+	#icon_code{
+		margin-left: 45%;
+		position: relative;
+		top: -30%;
+	}
+
+	/*Estilo da sessão sobre*/
+
+	.autoplay img{
+		margin-left: 95px;
+	}
+
+	.autoplay{
+		width: 90%;
+	}
+
+	/*Estilo da sessão projetos*/
+
+	.button{
+		width: 100px;
+		font-size: 11px;
+	}
+
+	/*Estilo da sessão contato*/
+
+	#box_contato_redes h3{
+		padding: 0%;
+		margin-top: 5%;
+		font-size: 25px;
 	}
 }

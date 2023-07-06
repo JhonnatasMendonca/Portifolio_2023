@@ -3,9 +3,17 @@
 document.addEventListener('DOMContentLoaded', function() {
     //Ativar carrossel
 
-    if($(window).width() <= 500){
+    if($(window).width() > 300 && $(window).width() < 500){
         $('.autoplay').slick({
             slidesToShow: 2,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            arrows: false,
+        });
+    }else if($(window).width() <= 300){
+        $('.autoplay').slick({
+            slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 1000,
