@@ -2,7 +2,6 @@
     padding-top: 10%;
     padding-bottom: 2%;
     text-align: center;
-    
 }
 
 #title h1{
@@ -76,4 +75,43 @@
 .buttons_access{
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 300px){
+    #title{
+        padding-top: 40%;
+        padding-bottom: 4%;
+    }
+
+    #title h1{
+        font-size: 30px;
+    }
+
+    .box_centro_projetos{
+        width: 80%;
+        padding-bottom: 4%;
+    }
+
+    .exemplo_projeto{
+        padding: 4%;
+        margin: 2% 0;
+    }
+
+    .exemplo_projeto:hover{
+        height: 420px;
+    }
+
+    .descricao_projeto ul li{
+        margin-right: 2%;
+        font-size: 12px;
+    }
+
+    .descricao_projeto p{
+        font-size: 12px;
+    }
+
+    .buttons_access a button{
+        font-size: 10px;
+
+    }
 }
