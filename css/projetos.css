@@ -77,7 +77,14 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 1120px){
+    #title{
+        padding-top: 20%;
+        padding-bottom: 4%;
+    }
+}
+
+@media screen and (max-width: 500px){
     #title{
         padding-top: 40%;
         padding-bottom: 4%;
